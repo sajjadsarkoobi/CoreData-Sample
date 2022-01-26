@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController" customModule="CoreData_Sample" customModuleProvider="target">
             <connections>
+                <outlet property="counterLabel" destination="6sF-hv-1eO" id="Sfg-jt-sBZ"/>
                 <outlet property="minusButton" destination="w6o-LE-uc3" id="lnf-wH-rlf"/>
                 <outlet property="plusButton" destination="2rS-0c-adL" id="R4G-0y-cDW"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
