@@ -17,6 +17,7 @@
 		5FF67A7527A13ABC008F5A47 /* CoreData_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A7427A13ABC008F5A47 /* CoreData_SampleUITestsLaunchTests.swift */; };
 		5FF67A8A27A13BE1008F5A47 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A8827A13BE1008F5A47 /* FirstViewController.swift */; };
 		5FF67A8B27A13BE1008F5A47 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF67A8927A13BE1008F5A47 /* FirstViewController.xib */; };
+		5FF67A8D27A140AE008F5A47 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A8C27A140AE008F5A47 /* FirstViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5FF67A7427A13ABC008F5A47 /* CoreData_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5FF67A8827A13BE1008F5A47 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		5FF67A8927A13BE1008F5A47 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		5FF67A8C27A140AE008F5A47 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		5FF67A8527A13B4C008F5A47 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				5FF67A8C27A140AE008F5A47 /* FirstViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FF67A5927A13ABA008F5A47 /* CoreData_Sample.xcdatamodeld in Sources */,
+				5FF67A8D27A140AE008F5A47 /* FirstViewModel.swift in Sources */,
 				5FF67A4F27A13ABA008F5A47 /* AppDelegate.swift in Sources */,
 				5FF67A5127A13ABA008F5A47 /* SceneDelegate.swift in Sources */,
 				5FF67A8A27A13BE1008F5A47 /* FirstViewController.swift in Sources */,

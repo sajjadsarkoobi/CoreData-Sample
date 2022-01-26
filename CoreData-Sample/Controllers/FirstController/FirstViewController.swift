@@ -9,6 +9,16 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    //IBOutlets:
+    @IBOutlet weak var plusButton: UIButton!
+    @IBAction func plusButtonAction(_ sender: UIButton) {
+        print("Plus")
+    }
+    @IBOutlet weak var minusButton: UIButton!
+    @IBAction func minusButtonAction(_ sender: UIButton) {
+        print("Minus")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
