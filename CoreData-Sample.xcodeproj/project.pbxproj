@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F33A7A027A268A2009398D4 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33A79E27A268A2009398D4 /* MainTableViewController.swift */; };
+		5F33A7A127A268A2009398D4 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F33A79F27A268A2009398D4 /* MainTableViewController.xib */; };
 		5FF67A4F27A13ABA008F5A47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A4E27A13ABA008F5A47 /* AppDelegate.swift */; };
 		5FF67A5127A13ABA008F5A47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A5027A13ABA008F5A47 /* SceneDelegate.swift */; };
 		5FF67A5927A13ABA008F5A47 /* CoreData_Sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A5727A13ABA008F5A47 /* CoreData_Sample.xcdatamodeld */; };
@@ -15,8 +17,8 @@
 		5FF67A6927A13ABC008F5A47 /* CoreData_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A6827A13ABC008F5A47 /* CoreData_SampleTests.swift */; };
 		5FF67A7327A13ABC008F5A47 /* CoreData_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A7227A13ABC008F5A47 /* CoreData_SampleUITests.swift */; };
 		5FF67A7527A13ABC008F5A47 /* CoreData_SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A7427A13ABC008F5A47 /* CoreData_SampleUITestsLaunchTests.swift */; };
-		5FF67A8A27A13BE1008F5A47 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A8827A13BE1008F5A47 /* FirstViewController.swift */; };
-		5FF67A8B27A13BE1008F5A47 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF67A8927A13BE1008F5A47 /* FirstViewController.xib */; };
+		5FF67A8A27A13BE1008F5A47 /* SimpleAddDeleteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A8827A13BE1008F5A47 /* SimpleAddDeleteController.swift */; };
+		5FF67A8B27A13BE1008F5A47 /* SimpleAddDeleteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF67A8927A13BE1008F5A47 /* SimpleAddDeleteController.xib */; };
 		5FF67A8D27A140AE008F5A47 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A8C27A140AE008F5A47 /* FirstViewModel.swift */; };
 		5FF67A8F27A14D3C008F5A47 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A8E27A14D3C008F5A47 /* CoreDataManager.swift */; };
 		5FF67A9227A15897008F5A47 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A9127A15897008F5A47 /* Observable.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F33A79E27A268A2009398D4 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		5F33A79F27A268A2009398D4 /* MainTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
 		5FF67A4B27A13ABA008F5A47 /* CoreData-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF67A4E27A13ABA008F5A47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FF67A5027A13ABA008F5A47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,8 +56,8 @@
 		5FF67A6E27A13ABC008F5A47 /* CoreData-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreData-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF67A7227A13ABC008F5A47 /* CoreData_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_SampleUITests.swift; sourceTree = "<group>"; };
 		5FF67A7427A13ABC008F5A47 /* CoreData_SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5FF67A8827A13BE1008F5A47 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		5FF67A8927A13BE1008F5A47 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		5FF67A8827A13BE1008F5A47 /* SimpleAddDeleteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAddDeleteController.swift; sourceTree = "<group>"; };
+		5FF67A8927A13BE1008F5A47 /* SimpleAddDeleteController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleAddDeleteController.xib; sourceTree = "<group>"; };
 		5FF67A8C27A140AE008F5A47 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
 		5FF67A8E27A14D3C008F5A47 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		5FF67A9127A15897008F5A47 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
@@ -84,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F33A79D27A2687B009398D4 /* MainTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5F33A79E27A268A2009398D4 /* MainTableViewController.swift */,
+				5F33A79F27A268A2009398D4 /* MainTableViewController.xib */,
+			);
+			path = MainTableView;
+			sourceTree = "<group>";
+		};
 		5FF67A4227A13ABA008F5A47 = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +161,8 @@
 		5FF67A8227A13B27008F5A47 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5FF67A8727A13BC0008F5A47 /* FirstController */,
+				5F33A79D27A2687B009398D4 /* MainTableView */,
+				5FF67A8727A13BC0008F5A47 /* SimpleAddDeleteController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -186,13 +200,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		5FF67A8727A13BC0008F5A47 /* FirstController */ = {
+		5FF67A8727A13BC0008F5A47 /* SimpleAddDeleteController */ = {
 			isa = PBXGroup;
 			children = (
-				5FF67A8827A13BE1008F5A47 /* FirstViewController.swift */,
-				5FF67A8927A13BE1008F5A47 /* FirstViewController.xib */,
+				5FF67A8827A13BE1008F5A47 /* SimpleAddDeleteController.swift */,
+				5FF67A8927A13BE1008F5A47 /* SimpleAddDeleteController.xib */,
 			);
-			path = FirstController;
+			path = SimpleAddDeleteController;
 			sourceTree = "<group>";
 		};
 		5FF67A9027A15883008F5A47 /* Helpers */ = {
@@ -307,8 +321,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F33A7A127A268A2009398D4 /* MainTableViewController.xib in Resources */,
 				5FF67A5E27A13ABC008F5A47 /* LaunchScreen.storyboard in Resources */,
-				5FF67A8B27A13BE1008F5A47 /* FirstViewController.xib in Resources */,
+				5FF67A8B27A13BE1008F5A47 /* SimpleAddDeleteController.xib in Resources */,
 				5FF67A5B27A13ABC008F5A47 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,9 +353,10 @@
 				5FF67A5927A13ABA008F5A47 /* CoreData_Sample.xcdatamodeld in Sources */,
 				5FF67A8D27A140AE008F5A47 /* FirstViewModel.swift in Sources */,
 				5FF67A9227A15897008F5A47 /* Observable.swift in Sources */,
+				5F33A7A027A268A2009398D4 /* MainTableViewController.swift in Sources */,
 				5FF67A4F27A13ABA008F5A47 /* AppDelegate.swift in Sources */,
 				5FF67A5127A13ABA008F5A47 /* SceneDelegate.swift in Sources */,
-				5FF67A8A27A13BE1008F5A47 /* FirstViewController.swift in Sources */,
+				5FF67A8A27A13BE1008F5A47 /* SimpleAddDeleteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
