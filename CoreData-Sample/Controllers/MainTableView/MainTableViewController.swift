@@ -11,6 +11,7 @@ class MainTableViewController: UITableViewController {
         
     enum RowNames: String, CaseIterable {
         case simpleAddRemove = "Simple add/fetch/delete"
+        case NSFetchResult = "NSFetchResult View Controller"
     }
     
     override func viewDidLoad() {
@@ -58,6 +59,9 @@ class MainTableViewController: UITableViewController {
         switch selectedRow {
         case .simpleAddRemove:
             controller = SimpleAddDeleteController()
+        
+        case .NSFetchResult:
+            controller = NSFetchResultViewController()
         }
         
         self.navigationController?.pushViewController(controller, animated: true)

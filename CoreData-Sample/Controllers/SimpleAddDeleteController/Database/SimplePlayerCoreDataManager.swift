@@ -1,5 +1,5 @@
 //
-//  CoreDataManager.swift
+//  SimplePlayer.swift
 //  CoreData-Sample
 //
 //  Created by Sajjad Sarkoobi on 1/26/22.
@@ -8,9 +8,9 @@
 import Foundation
 import CoreData
 
-class CoreDataManager {
+class SimplePlayer {
     
-    public static var shared: CoreDataManager = CoreDataManager()
+    public static var shared: SimplePlayer = SimplePlayer()
     
     private init() {
         //Singleton class
@@ -18,7 +18,7 @@ class CoreDataManager {
     
     //Defining PersistentContainer
     let persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "CoreData_Sample")
+        let container = NSPersistentContainer(name: "SimplePlayer")
         container.loadPersistentStores { (storeDescription, error) in
             if let error = error {
                 fatalError("Loading CoreData persistent container failed \(error)")

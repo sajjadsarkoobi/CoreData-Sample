@@ -12,20 +12,20 @@ class FirstViewModel {
     var counter: Observable<Int> = Observable(nil)
     
     func savePlyaer() {
-        CoreDataManager.shared.createPlayer(name: "Sajjad")
+        SimplePlayer.shared.createPlayer(name: "Sajjad")
         updateCounter()
     }
     
     func deletePlayer() {
-        guard let player = CoreDataManager.shared.fetchPlayer(withName: "Sajjad") else {
+        guard let player = SimplePlayer.shared.fetchPlayer(withName: "Sajjad") else {
             return
         }
-        CoreDataManager.shared.deletePlayer(player: player)
+        SimplePlayer.shared.deletePlayer(player: player)
         updateCounter()
     }
     
     func updateCounter() {
-        let count = CoreDataManager.shared.fetchPlayers().count
+        let count = SimplePlayer.shared.fetchPlayers().count
         counter.value = count
     }
 }

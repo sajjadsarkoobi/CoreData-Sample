@@ -9,9 +9,13 @@
 /* Begin PBXBuildFile section */
 		5F33A7A027A268A2009398D4 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33A79E27A268A2009398D4 /* MainTableViewController.swift */; };
 		5F33A7A127A268A2009398D4 /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F33A79F27A268A2009398D4 /* MainTableViewController.xib */; };
+		5F72024F27A2F4C30065DC03 /* NSFetchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72024D27A2F4C30065DC03 /* NSFetchResultViewController.swift */; };
+		5F72025027A2F4C30065DC03 /* NSFetchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F72024E27A2F4C30065DC03 /* NSFetchResultViewController.xib */; };
+		5F72025427A302400065DC03 /* NSFetchNameModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F72025227A302400065DC03 /* NSFetchNameModel.xcdatamodeld */; };
+		5F72025627A302980065DC03 /* NSFetchNameListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72025527A302980065DC03 /* NSFetchNameListManager.swift */; };
 		5FF67A4F27A13ABA008F5A47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A4E27A13ABA008F5A47 /* AppDelegate.swift */; };
 		5FF67A5127A13ABA008F5A47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A5027A13ABA008F5A47 /* SceneDelegate.swift */; };
-		5FF67A5927A13ABA008F5A47 /* CoreData_Sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A5727A13ABA008F5A47 /* CoreData_Sample.xcdatamodeld */; };
+		5FF67A5927A13ABA008F5A47 /* SimplePlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A5727A13ABA008F5A47 /* SimplePlayer.xcdatamodeld */; };
 		5FF67A5B27A13ABC008F5A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF67A5A27A13ABC008F5A47 /* Assets.xcassets */; };
 		5FF67A5E27A13ABC008F5A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF67A5C27A13ABC008F5A47 /* LaunchScreen.storyboard */; };
 		5FF67A6927A13ABC008F5A47 /* CoreData_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A6827A13ABC008F5A47 /* CoreData_SampleTests.swift */; };
@@ -20,7 +24,7 @@
 		5FF67A8A27A13BE1008F5A47 /* SimpleAddDeleteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A8827A13BE1008F5A47 /* SimpleAddDeleteController.swift */; };
 		5FF67A8B27A13BE1008F5A47 /* SimpleAddDeleteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF67A8927A13BE1008F5A47 /* SimpleAddDeleteController.xib */; };
 		5FF67A8D27A140AE008F5A47 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A8C27A140AE008F5A47 /* FirstViewModel.swift */; };
-		5FF67A8F27A14D3C008F5A47 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A8E27A14D3C008F5A47 /* CoreDataManager.swift */; };
+		5FF67A8F27A14D3C008F5A47 /* SimplePlayerCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A8E27A14D3C008F5A47 /* SimplePlayerCoreDataManager.swift */; };
 		5FF67A9227A15897008F5A47 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF67A9127A15897008F5A47 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +48,10 @@
 /* Begin PBXFileReference section */
 		5F33A79E27A268A2009398D4 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		5F33A79F27A268A2009398D4 /* MainTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
+		5F72024D27A2F4C30065DC03 /* NSFetchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSFetchResultViewController.swift; sourceTree = "<group>"; };
+		5F72024E27A2F4C30065DC03 /* NSFetchResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSFetchResultViewController.xib; sourceTree = "<group>"; };
+		5F72025327A302400065DC03 /* NSFetchNameModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NSFetchNameModel.xcdatamodel; sourceTree = "<group>"; };
+		5F72025527A302980065DC03 /* NSFetchNameListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSFetchNameListManager.swift; sourceTree = "<group>"; };
 		5FF67A4B27A13ABA008F5A47 /* CoreData-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF67A4E27A13ABA008F5A47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FF67A5027A13ABA008F5A47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +67,7 @@
 		5FF67A8827A13BE1008F5A47 /* SimpleAddDeleteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAddDeleteController.swift; sourceTree = "<group>"; };
 		5FF67A8927A13BE1008F5A47 /* SimpleAddDeleteController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleAddDeleteController.xib; sourceTree = "<group>"; };
 		5FF67A8C27A140AE008F5A47 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
-		5FF67A8E27A14D3C008F5A47 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		5FF67A8E27A14D3C008F5A47 /* SimplePlayerCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePlayerCoreDataManager.swift; sourceTree = "<group>"; };
 		5FF67A9127A15897008F5A47 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +105,25 @@
 			path = MainTableView;
 			sourceTree = "<group>";
 		};
+		5F72024C27A2F4820065DC03 /* NSFetchResultViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5F72025127A3021E0065DC03 /* DataBase */,
+				5F72024D27A2F4C30065DC03 /* NSFetchResultViewController.swift */,
+				5F72024E27A2F4C30065DC03 /* NSFetchResultViewController.xib */,
+			);
+			path = NSFetchResultViewController;
+			sourceTree = "<group>";
+		};
+		5F72025127A3021E0065DC03 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				5F72025227A302400065DC03 /* NSFetchNameModel.xcdatamodeld */,
+				5F72025527A302980065DC03 /* NSFetchNameListManager.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
 		5FF67A4227A13ABA008F5A47 = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +153,6 @@
 				5FF67A8427A13B3D008F5A47 /* Models */,
 				5FF67A8327A13B2F008F5A47 /* Views */,
 				5FF67A8227A13B27008F5A47 /* Controllers */,
-				5FF67A8127A13B0F008F5A47 /* Database */,
 				5FF67A5F27A13ABC008F5A47 /* Info.plist */,
 			);
 			path = "CoreData-Sample";
@@ -152,8 +178,8 @@
 		5FF67A8127A13B0F008F5A47 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				5FF67A5727A13ABA008F5A47 /* CoreData_Sample.xcdatamodeld */,
-				5FF67A8E27A14D3C008F5A47 /* CoreDataManager.swift */,
+				5FF67A5727A13ABA008F5A47 /* SimplePlayer.xcdatamodeld */,
+				5FF67A8E27A14D3C008F5A47 /* SimplePlayerCoreDataManager.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -161,6 +187,7 @@
 		5FF67A8227A13B27008F5A47 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5F72024C27A2F4820065DC03 /* NSFetchResultViewController */,
 				5F33A79D27A2687B009398D4 /* MainTableView */,
 				5FF67A8727A13BC0008F5A47 /* SimpleAddDeleteController */,
 			);
@@ -203,6 +230,7 @@
 		5FF67A8727A13BC0008F5A47 /* SimpleAddDeleteController */ = {
 			isa = PBXGroup;
 			children = (
+				5FF67A8127A13B0F008F5A47 /* Database */,
 				5FF67A8827A13BE1008F5A47 /* SimpleAddDeleteController.swift */,
 				5FF67A8927A13BE1008F5A47 /* SimpleAddDeleteController.xib */,
 			);
@@ -321,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F72025027A2F4C30065DC03 /* NSFetchResultViewController.xib in Resources */,
 				5F33A7A127A268A2009398D4 /* MainTableViewController.xib in Resources */,
 				5FF67A5E27A13ABC008F5A47 /* LaunchScreen.storyboard in Resources */,
 				5FF67A8B27A13BE1008F5A47 /* SimpleAddDeleteController.xib in Resources */,
@@ -349,14 +378,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF67A8F27A14D3C008F5A47 /* CoreDataManager.swift in Sources */,
-				5FF67A5927A13ABA008F5A47 /* CoreData_Sample.xcdatamodeld in Sources */,
+				5FF67A8F27A14D3C008F5A47 /* SimplePlayerCoreDataManager.swift in Sources */,
+				5FF67A5927A13ABA008F5A47 /* SimplePlayer.xcdatamodeld in Sources */,
 				5FF67A8D27A140AE008F5A47 /* FirstViewModel.swift in Sources */,
+				5F72024F27A2F4C30065DC03 /* NSFetchResultViewController.swift in Sources */,
 				5FF67A9227A15897008F5A47 /* Observable.swift in Sources */,
 				5F33A7A027A268A2009398D4 /* MainTableViewController.swift in Sources */,
 				5FF67A4F27A13ABA008F5A47 /* AppDelegate.swift in Sources */,
 				5FF67A5127A13ABA008F5A47 /* SceneDelegate.swift in Sources */,
+				5F72025427A302400065DC03 /* NSFetchNameModel.xcdatamodeld in Sources */,
 				5FF67A8A27A13BE1008F5A47 /* SimpleAddDeleteController.swift in Sources */,
+				5F72025627A302980065DC03 /* NSFetchNameListManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,13 +726,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5FF67A5727A13ABA008F5A47 /* CoreData_Sample.xcdatamodeld */ = {
+		5F72025227A302400065DC03 /* NSFetchNameModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F72025327A302400065DC03 /* NSFetchNameModel.xcdatamodel */,
+			);
+			currentVersion = 5F72025327A302400065DC03 /* NSFetchNameModel.xcdatamodel */;
+			path = NSFetchNameModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		5FF67A5727A13ABA008F5A47 /* SimplePlayer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				5FF67A5827A13ABA008F5A47 /* CoreData_Sample.xcdatamodel */,
 			);
 			currentVersion = 5FF67A5827A13ABA008F5A47 /* CoreData_Sample.xcdatamodel */;
-			path = CoreData_Sample.xcdatamodeld;
+			path = SimplePlayer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
